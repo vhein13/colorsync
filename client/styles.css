@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .palette-grid {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .palette-grid div {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+  }
